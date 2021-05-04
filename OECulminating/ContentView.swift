@@ -9,8 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text("Tri-State Tornado")
+                .font(.title)
+            Spacer()
+            Spacer()
+            
+            List{
+            NavigationLink (destination: Causes ()){
+                Text("Causes")
+                }
+                Text("Economic impacts")
+                Text("Human impacts")
+                NavigationLink(destination: howtornadoeswereregarded()){ Text("What were tornado warning signs for the tornado")
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.black)
+                }
+                Text("Other info")
+            }
+            .padding(.top, 50.0)
+        }
+       
+            
     }
 }
 
