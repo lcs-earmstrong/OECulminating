@@ -9,10 +9,13 @@ import SwiftUI
 
 struct Causes: View {
     var body: some View {
-        VStack{
+       ScrollView{
         Text("What caused the Tri State Tornado?")
+        Spacer()
+        Spacer()
         
-            Text("")
+        Text("While tornado forecasting was officially nonexistent, the weather bureau had been tracking a cold, low-pressure system that bent down from western Canada into Wyoming and all the way to the Oklahoma-Texas border before curving back towards southeastern Missouri. The jet stream wasn't discovered until World War II -- when Japanese scientists were experimenting with transoceanic balloon bombs -- but most likely its path that day mirrored that of the storm front. And the jet stream's wind speed was probably very strong, given how fast the tornado traveled.")
+            .padding(.horizontal, 25.0)
         }
     }
 }
