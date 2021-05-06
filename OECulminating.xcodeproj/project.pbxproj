@@ -14,6 +14,8 @@
 		B87AC3042641CA9B00C0EF19 /* Causes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC3032641CA9B00C0EF19 /* Causes.swift */; };
 		B87AC30D2641D03700C0EF19 /* howtornadoeswereregarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC30C2641D03700C0EF19 /* howtornadoeswereregarded.swift */; };
 		B87AC31226438BF100C0EF19 /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC31126438BF100C0EF19 /* other.swift */; };
+		B87AC31826438C4300C0EF19 /* EconomicImpacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC31726438C4300C0EF19 /* EconomicImpacts.swift */; };
+		B87AC31C26438C6500C0EF19 /* HumanImpacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC31B26438C6500C0EF19 /* HumanImpacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B87AC3032641CA9B00C0EF19 /* Causes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Causes.swift; sourceTree = "<group>"; };
 		B87AC30C2641D03700C0EF19 /* howtornadoeswereregarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howtornadoeswereregarded.swift; sourceTree = "<group>"; };
 		B87AC31126438BF100C0EF19 /* other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
+		B87AC31726438C4300C0EF19 /* EconomicImpacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicImpacts.swift; sourceTree = "<group>"; };
+		B87AC31B26438C6500C0EF19 /* HumanImpacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanImpacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			children = (
 				B87AC30C2641D03700C0EF19 /* howtornadoeswereregarded.swift */,
 				B87AC31126438BF100C0EF19 /* other.swift */,
+				B87AC31726438C4300C0EF19 /* EconomicImpacts.swift */,
+				B87AC31B26438C6500C0EF19 /* HumanImpacts.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,10 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87AC31C26438C6500C0EF19 /* HumanImpacts.swift in Sources */,
 				B87AC2F62641C42E00C0EF19 /* ContentView.swift in Sources */,
 				B87AC2F42641C42E00C0EF19 /* OECulminatingApp.swift in Sources */,
 				B87AC3042641CA9B00C0EF19 /* Causes.swift in Sources */,
 				B87AC31226438BF100C0EF19 /* other.swift in Sources */,
+				B87AC31826438C4300C0EF19 /* EconomicImpacts.swift in Sources */,
 				B87AC30D2641D03700C0EF19 /* howtornadoeswereregarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
