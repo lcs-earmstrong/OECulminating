@@ -9,16 +9,15 @@ import SwiftUI
 
 struct howtornadoeswereregarded: View {
     var body: some View {
-        ScrollView{
+      ScrollView{
             Text("How were tornadoes regarded at this time in 1925?")
                 .font(.headline)
                
             Spacer()
-            Spacer()
-            Spacer()
             
-            
-            Text(" The word “tornado” had been banned since 1887, when the U.S Army Signal Corps managed the country’s weather forecasting.  Tornadoes were utterly unpredictable, the logic went, and forecasting them, besides being a fruitless venture, would only spread panic among the public.  “Forecasters weren’t allowed to study tornadoes, or even acknowledge their existence in public.")
+            Image("tornado")
+        Spacer()
+            Text(" The word “tornado” had been banned since 1887, when the U.S Army Signal Corps managed the country’s weather forecasting.  Tornadoes were utterly unpredictable, the logic went, and forecasting them, besides being a fruitless venture, would only spread panic among the public.  Forecasters weren’t allowed to study tornadoes, or even acknowledge their existence in public.")
                 .padding(.horizontal, 22.0)
         }
     }

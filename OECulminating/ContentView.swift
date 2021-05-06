@@ -20,7 +20,9 @@ struct ContentView: View {
                     NavigationLink(destination: EconomicImpacts()){
                     Text("Economic impacts")
                     }
+                    NavigationLink(destination: HumanImpacts()){
                     Text("Human impacts")
+                    }
                     
                     NavigationLink(destination: howtornadoeswereregarded()){ Text("What were tornado warning signs for the tornado")
                     }
