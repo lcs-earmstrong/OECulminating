@@ -12,23 +12,28 @@ struct ContentView: View {
         VStack{
             Text("Tri-State Tornado")
                 .font(.title)
-        NavigationView{
-            List{
-            NavigationLink (destination: Causes()){
-                Text("Causes")
+            NavigationView{
+                List{
+                    NavigationLink (destination: Causes()){
+                        Text("Causes")
+                    }
+                    NavigationLink(destination: EconomicImpacts()){
+                    Text("Economic impacts")
+                    }
+                    Text("Human impacts")
+                    
+                    NavigationLink(destination: howtornadoeswereregarded()){ Text("What were tornado warning signs for the tornado")
+                    }
+                    NavigationLink(destination: other()){
+                        Text("Other info")
+                    }
                 }
-                Text("Economic impacts")
-                Text("Human impacts")
-                NavigationLink(destination: howtornadoeswereregarded()){ Text("What were tornado warning signs for the tornado")
-                }
-                Text("Other info")
+                .padding(.top, 50.0)
             }
-            .padding(.top, 50.0)
-        }
         }
     }
-            
-    }
+    
+}
 
 
 struct ContentView_Previews: PreviewProvider {
