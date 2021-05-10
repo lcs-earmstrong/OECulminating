@@ -29,6 +29,9 @@ struct ContentView: View {
                     NavigationLink(destination: other()){
                         Text("Other info")
                     }
+                    NavigationLink(destination: sources()){
+                    Text("Sources")
+                    }
                 }
                 .padding(.top, 50.0)
             }
