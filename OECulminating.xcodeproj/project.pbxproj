@@ -18,6 +18,7 @@
 		B87AC31C26438C6500C0EF19 /* HumanImpacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC31B26438C6500C0EF19 /* HumanImpacts.swift */; };
 		B87AC3212644C8D600C0EF19 /* sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC3202644C8D500C0EF19 /* sources.swift */; };
 		B87AC3252648DF6B00C0EF19 /* tornado.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC3242648DF6B00C0EF19 /* tornado.swift */; };
+		B87AC32B2649627000C0EF19 /* costBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC32A2649627000C0EF19 /* costBenefit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B87AC31B26438C6500C0EF19 /* HumanImpacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanImpacts.swift; sourceTree = "<group>"; };
 		B87AC3202644C8D500C0EF19 /* sources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sources.swift; sourceTree = "<group>"; };
 		B87AC3242648DF6B00C0EF19 /* tornado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tornado.swift; sourceTree = "<group>"; };
+		B87AC32A2649627000C0EF19 /* costBenefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = costBenefit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				B87AC31726438C4300C0EF19 /* EconomicImpacts.swift */,
 				B87AC31B26438C6500C0EF19 /* HumanImpacts.swift */,
 				B87AC3242648DF6B00C0EF19 /* tornado.swift */,
+				B87AC32A2649627000C0EF19 /* costBenefit.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87AC32B2649627000C0EF19 /* costBenefit.swift in Sources */,
 				B87AC31C26438C6500C0EF19 /* HumanImpacts.swift in Sources */,
 				B87AC2F62641C42E00C0EF19 /* ContentView.swift in Sources */,
 				B87AC2F42641C42E00C0EF19 /* OECulminatingApp.swift in Sources */,
