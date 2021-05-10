@@ -32,6 +32,9 @@ struct ContentView: View {
                     NavigationLink(destination: sources()){
                     Text("Sources")
                     }
+                    NavigationLink(destination: tornado()){
+                        Text("What is a Tornado")
+                    }
                 }
                 .padding(.top, 50.0)
             }
