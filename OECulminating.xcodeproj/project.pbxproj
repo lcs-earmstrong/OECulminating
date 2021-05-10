@@ -73,7 +73,6 @@
 				B87AC2F72641C43300C0EF19 /* Assets.xcassets */,
 				B87AC2FC2641C43300C0EF19 /* Info.plist */,
 				B87AC3062641CD2500C0EF19 /* Views */,
-				B87AC3032641CA9B00C0EF19 /* Causes.swift */,
 				B87AC31126438BF100C0EF19 /* other.swift */,
 				B87AC3202644C8D500C0EF19 /* sources.swift */,
 				B87AC2F92641C43300C0EF19 /* Preview Content */,
@@ -95,6 +94,7 @@
 				B87AC30C2641D03700C0EF19 /* howtornadoeswereregarded.swift */,
 				B87AC31726438C4300C0EF19 /* EconomicImpacts.swift */,
 				B87AC31B26438C6500C0EF19 /* HumanImpacts.swift */,
+				B87AC3032641CA9B00C0EF19 /* Causes.swift */,
 				B87AC3242648DF6B00C0EF19 /* tornado.swift */,
 				B87AC32A2649627000C0EF19 /* costBenefit.swift */,
 			);

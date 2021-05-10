@@ -12,6 +12,8 @@ struct other: View {
         ScrollView{
            Text("What other information is there for the tornado?")
             Spacer()
+            
+            Image("aftermath")
         Text(
             """
             Although the enhanced Fujita scale was not known at the time it is by all accounts considered to be an F5 tornado.

@@ -14,29 +14,33 @@ struct ContentView: View {
                 .font(.title)
             NavigationView{
                 List{
+                    
+                    NavigationLink(destination: tornado()){
+                        Text("What is a Tornado")
+                    }
                     NavigationLink (destination: Causes()){
                         Text("Causes")
                     }
                     NavigationLink(destination: EconomicImpacts()){
-                    Text("Economic impacts")
+                        Text("Economic impacts")
                     }
                     NavigationLink(destination: HumanImpacts()){
-                    Text("Human impacts")
+                        Text("Human impacts")
                     }
                     
                     NavigationLink(destination: howtornadoeswereregarded()){ Text("What were tornado warning signs for the tornado")
+                    }
+                    NavigationLink(destination: costBenefit()){
+                        Text("What is the cost/benefit of living in a disaster prone area")
                     }
                     NavigationLink(destination: other()){
                         Text("Other info")
                     }
                     NavigationLink(destination: sources()){
-                    Text("Sources")
+                        Text("Sources")
                     }
-                    NavigationLink(destination: tornado()){
-                        Text("What is a Tornado")
-                    }
+                    
                 }
-                .padding(.top, 50.0)
             }
         }
     }
