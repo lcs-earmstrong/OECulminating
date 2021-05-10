@@ -9,7 +9,7 @@ import SwiftUI
 
 struct other: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Although the enhanced Fujita scale was not known at the time it is by all accounts considered to be an F5 tornado. ")
     }
 }
 

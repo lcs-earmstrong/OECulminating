@@ -19,7 +19,6 @@ struct sources: View {
             The Tri-State Tornado - HISTORY. Retrieved April 27, 2021, from https://www.history.com/this-day-in-history/the-tri-state-tornado
 
 (2014, March 18). The Tri-State Tornado of 1925 - ustornadoes.com. Retrieved May 1, 2021, from https://www.ustornadoes.com/2014/03/18/the-tri-state-tornado-of-1925/
-
             """
         )
         }
